@@ -1,3 +1,18 @@
+Pasos a seguir para la ejecución del proyecto una vez clonado.
+
+1. Clonar proyecto a repositorio
+2. Instalar dependencias de composer para la creación de la carpeta vendor.
+3. Duplicar archivo .env.example y nombrar como .env
+4. Configuracones en arhivo .env
+        - Poner nombre a BDD. 
+        - Generar APP_KEY en terminal con php artisan
+5. Ejecutar migraciones con php artisan migrate
+        - Las tablas del proyecto son: transacciones y tipo. (Las demás migraciones corresponden a la versión del framework)
+        - Al ejecutar las migraciones las tablas transacciones y tipo deben quedar relacionadas con una Fkeign.
+
+---------------------------
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
