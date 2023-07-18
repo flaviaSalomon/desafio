@@ -10,6 +10,9 @@ Pasos a seguir para la ejecución del proyecto una vez clonado.
         - Las tablas del proyecto son: transacciones y tipo. (Las demás migraciones corresponden a la versión del framework)
         - Al ejecutar las migraciones las tablas transacciones y tipo deben quedar relacionadas con una foreign key.
 
+
+
+
 ---------------------------
 
 
