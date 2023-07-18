@@ -8,7 +8,7 @@ Pasos a seguir para la ejecución del proyecto una vez clonado.
         - Generar APP_KEY en terminal con php artisan
 5. Ejecutar migraciones con php artisan migrate
         - Las tablas del proyecto son: transacciones y tipo. (Las demás migraciones corresponden a la versión del framework)
-        - Al ejecutar las migraciones las tablas transacciones y tipo deben quedar relacionadas con una Fkeign.
+        - Al ejecutar las migraciones las tablas transacciones y tipo deben quedar relacionadas con una foreign key.
 
 ---------------------------
 
